@@ -3,4 +3,5 @@ Fable.Core
 Fable.Import.Browser
 Fable.Elmish
 Fable.Elmish.Browser
+Fable.Elmish.Debugger
 Fable.Elmish.Inferno

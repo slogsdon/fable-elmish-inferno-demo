@@ -113,9 +113,15 @@ let view model dispatch =
 
 
 open Elmish.Inferno
+open Elmish.Debug
 
 
 Program.mkProgram init update view
-|> Program.withInferno "elmish-app"
 |> Program.toNavigable (parsePath route) urlUpdate
+|> Program.withInferno "elmish-app"
+//-:cnd:noEmit
+#if DEBUG
+|> Program.withDebuggerAt (Debugger.ConnectionOptions.Secure ("remotedev.io", 443))
+#endif
+//+:cnd:noEmit
 |> Program.run

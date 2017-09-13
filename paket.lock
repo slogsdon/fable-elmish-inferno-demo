@@ -33,6 +33,10 @@ NUGET
       Fable.Elmish (>= 0.9.0) - restriction: >= netstandard1.6
       Fable.Import.Browser (>= 0.1) - restriction: >= netstandard1.6
       FSharp.Core (>= 4.2.1) - restriction: >= netstandard1.6
+    Fable.Elmish.Debugger (0.9)
+      Fable.Core (>= 1.1.2) - restriction: >= netstandard1.6
+      Fable.Elmish (>= 0.9) - restriction: >= netstandard1.6
+      FSharp.Core (>= 4.2.1) - restriction: >= netstandard1.6
     Fable.Elmish.Inferno (0.0.3)
       Fable.Core (>= 1.1.8) - restriction: >= netstandard1.6
       Fable.Elmish (>= 0.9) - restriction: >= netstandard1.6
